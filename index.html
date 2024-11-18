@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The weather Appliction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="enter your city name" >
+            <button class="search-btn">
+                <img src="images/search.png">
+            </button>
+        </div>
+        <div class="error-message">
+            <p>
+                Invalid city name
+            </p>
+        </div>
+        <div class="weather">
+            <div class="main">
+                <img src="images/clear.png" alt="">
+            </div>
+            <h1 class="temp">
+                22°c
+            </h1>
+            <h1 class="city-name">
+                Abuja
+            </h1>
+             <div class="weather-condition">
+                <div class="humidity">
+                    <img src="images/humidity.png" alt="humidity">
+                    <p>
+                        <span class="humidity-value">89%</span><br>
+                        Humidity
+                    </p>
+                </div>
+                <div class="wind-speed">
+                    <img src="images/wind.png" alt="Wind">
+                    <p>
+                        <span class="speed">10.29Km/hr</span><br>
+                        Wind Speed
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js">
+    </script>
+
+</body>
+</html>
